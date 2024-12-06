@@ -9,7 +9,6 @@ type DropDownProps = {
 }
 
 const Dropdown = ({ label, options, onChange }: DropDownProps) => {
-  console.log(options, "222")
     return (
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1">
